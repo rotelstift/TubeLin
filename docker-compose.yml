@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tubelin:
+    build: .
+    ports:
+      - "4200:4200"
+    volumes:
+      - ".:/projects"
+    tty: true
+    command: /bin/bash -c "/bin/bash"
