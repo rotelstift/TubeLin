@@ -1,0 +1,7 @@
+{
+    // Default path to open when attaching to a new container.
+    "workspaceFolder": "/projects",
+
+    // Container user VS Code should use when connecting
+    "remoteUser": "vscode"
+}
