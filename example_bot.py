@@ -3,7 +3,7 @@
 import discord
 import json
 
-setting_file = open('settings.json', 'r')
+setting_file = open('tubelin_config.json', 'r')
 setting = json.load(setting_file)
 
 intents = discord.Intents.default()
