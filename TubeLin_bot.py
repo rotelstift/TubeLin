@@ -17,7 +17,7 @@ tree = discord.app_commands.CommandTree(client)
     auto_locale_strings=False
 )
 async def tubelin(ctx:discord.Interaction):
-    await ctx.response.send_message('tubelin!')
+    await ctx.response.send_message('https://youtu.be/-_s6kpwTQdg')
 
 
 @client.event
